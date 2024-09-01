@@ -23,4 +23,39 @@ These are our planned and completed Plugins
 
 - [ ] WorldManager - Manage worlds, teleport to certain worlds, and view user worlds in chat.
 - [ ] GoodbyeHacker - AntiCheat used to deter cheaters in real time.
-- [ ] Moderator - Ban, kick, and mute users
+- [ ] Moderator - Ban, kick, and mute users easily with our intuitive moderation plugin
+- [ ] WelcomeMessage - Configure a welcome message to display to users on join
+- [ ] AutoModerator - Automoderate chat by blacklisting a list of words.
+- [ ] ServerKit AutoUpdater - Check for updates to plugins and update automatically (soon)
+
+More plugins are planned for the future and this will be updated. Some may take longer due to the complexity of the plugins.
+
+
+## How to Run
+### 1. Download Pumpkin from source
+> [!WARNING]
+> Pumpkin is not fully released yet. It is still in major development.
+>
+> You can help Pumpkin out by contributing to the project or [joining the official Pumpkin Discord Server](https://discord.gg/x2923hweS3)
+
+In your terminal, enter the following commands to clone Pumpkin from the source and then cd into the directory.
+```shell
+git clone https://github.com/Snowiiii/Pumpkin.git
+cd Pumpkin
+```
+
+> [!NOTE]
+> You'll need to [install Rust](https://www.rust-lang.org/tools/install) to use Pumpkin.
+
+Once you have downloaded the source, run the following command into your terminal to start the server.
+```shell
+cargo run --release cpu-target=native
+```
+
+### 2. Add the plugin into the "plugins" folder
+![image](https://github.com/user-attachments/assets/83419a60-9f5b-4afd-85ac-0ac5e8271b50)
+Drag and drop the plugin into the "plugins" folder in Pumpkin.
+
+
+### 3. Run the server
+The plugin should hopefully work!
