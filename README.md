@@ -28,6 +28,8 @@ These are our planned and completed Plugins
 - [ ] WelcomeMessage - Configure a welcome message to display to users on join
 - [ ] AutoModerator - Automoderate chat by blacklisting a list of words.
 - [ ] ServerKit AutoUpdater - Check for updates to plugins and update automatically (soon)
+- [ ] SuperRanks - Ranking system to provide permissions and chat ranks for moderators and owners.
+- [ ] Qiro RCON API - Support for Qiro RCON.
 
 More plugins are planned for the future and this will be updated. Some may take longer due to the complexity of the plugins.
 
